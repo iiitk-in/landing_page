@@ -2,18 +2,17 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div>
+    <div className="division">
       <Head>
         <title>IIITK Projects Hosting Platform</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="IIIT Kottayam's student-run host" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-
       <div className="min-h-screen flex justify-center items-center bg-gradient-to-br from-gray-900 to-gray-800">
         <div className="max-w-4xl">
           <div className="h-screen flex items-center justify-center flex-col">
-            <h1 className="text-[250px] font-bold bg-gradient-to-r from-cyan-400 via-blue-800 to-green-600 text-transparent bg-clip-text bg-300% animate-gradient">
+            <h1 className="text-[6em] sm:text-[8em] md:text-[12em] lg:text-[20em] font-bold bg-gradient-to-r from-cyan-400 via-blue-800 to-green-600 text-transparent bg-clip-text bg-300% animate-gradient">
               IIITK.in
             </h1>
             <h1 className="text-4xl font-bold text-center mb-6">
@@ -24,7 +23,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-20">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-20 p-3">
             <div className="bg-white rounded-xl p-8 backdrop-filter backdrop-blur-md bg-opacity-40">
               <h2 className="text-2xl font-bold mb-4">Elevate Your Projects</h2>
               <p>
