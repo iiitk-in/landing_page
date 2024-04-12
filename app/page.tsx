@@ -6,6 +6,8 @@ export default function Home() {
       <Head>
         <title>IIITK Projects Hosting Platform</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="IIIT Kottayam's student-run host" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
       <div className="min-h-screen flex justify-center items-center bg-gradient-to-br from-gray-900 to-gray-800">
