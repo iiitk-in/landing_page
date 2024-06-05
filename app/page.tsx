@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
@@ -9,7 +10,9 @@ export default function Home() {
         <meta name="description" content="IIIT Kottayam's student-run host" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <div className="min-h-screen flex justify-center items-center bg-gradient-to-br from-gray-900 to-gray-800">
+
+      <div className="min-h-screen flex justify-center items-center bg-gradient-to-br from-gray-900 to-gray-800 flex-col w-full">
+        <Navbar />
         <div className="max-w-4xl">
           <div className="mb-10 md:mb-0 md:h-screen flex items-center justify-center flex-col">
             <h1 className="mt-20 md:mt-0 text-[6em] sm:text-[8em] md:text-[12em] lg:text-[20em] font-bold bg-gradient-to-r from-cyan-400 via-blue-800 to-green-600 text-transparent bg-clip-text bg-300% animate-gradient">

@@ -31,3 +31,26 @@ body {
     text-wrap: balance;
   }
 }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.stickyCSSClass {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  backdrop-filter: blur(50px);
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width: 100%;
+  animation-duration: 0.5s;
+  animation-name: fadeInDown;
+  animation-timing-function: ease-out;
+}
